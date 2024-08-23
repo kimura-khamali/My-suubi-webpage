@@ -1,0 +1,492 @@
+
+.footer-content{
+  margin-left: 5.%;
+ 
+}
+footer {
+  padding-top: 1%;
+  display: flex;
+  font-size: 16px;
+  gap: 380px;
+  background-color: #29335c;
+  color: white;
+  text-align: left;
+  margin-top: 10%;
+  line-height: 2;
+ 
+}
+
+.Icons {
+  width: 29.64px;
+  height: 26.08px;
+  margin: 10px;
+  gap: 10%;
+}
+.logos {
+  width: 70px;
+  height: 110px;
+  padding-left: 1em;
+  padding-top: 50px;
+
+}
+.icons {
+  gap: 10%;
+}
+
+@media screen and (min-width: 280px) and (max-width: 480px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 16px;
+    gap: 2px;
+    text-align: left;
+  
+  }
+
+  .logos {
+    padding-left: 3px;
+    width: 50px;
+    height: 90px;
+  }
+  
+  
+}
+@media screen and (min-width: 481px) and (max-width: 681px) {
+  footer {
+    flex-direction: column;
+    font-size: 25px;
+    gap: 4px;
+    padding-left: 6px;
+  }
+
+  .logos {
+    padding-left: 3px;
+  }
+}
+@media screen and (min-width: 682px) and (max-width: 882px) {
+  footer {
+    flex-direction: column;
+    font-size: 28px;
+    gap: 3px;
+    padding-left: 6px;
+    text-align: center;
+  }
+
+  .logos {
+    padding-left: 3px;
+  }
+  .Icons {
+    width: 38.64px;
+    height: 35.08px;
+    
+    
+  }
+}
+@media screen and (min-width: 883px) and (max-width: 1083px) {
+  footer {
+    display: flex;
+    font-size: 30px;
+    gap: 3px;
+    text-align: left;
+
+    padding-left: 6px;
+  }
+
+  .logos {
+    padding-left: 3px;
+  }
+  .Icons {
+    width: 38.64px;
+    height: 35.08px;
+    
+    
+  }
+}
+@media screen and (min-width: 1084px) and (max-width: 1284px) {
+  footer {
+    display: flex;
+
+    font-size: 16px;
+    gap: 3px;
+    padding-left: 6px;
+    text-align: left;
+  }
+
+  .logos {
+    width: 90px;
+    padding-left: 3px;
+  }
+  .Icons {
+    width: 38.64px;
+    height: 35.08px;
+    
+    
+  }
+}
+@media screen and (min-width: 1283px) and (max-width: 1483px) {
+  footer {
+    flex-direction: column;
+    font-size: 16px;
+    gap: 3px;
+    text-align: center;
+    padding-left: 6px;
+    font-size: 20px;
+  }
+
+  .logos {
+    padding-left: 3px;
+  }
+  .Icons {
+    width: 38.64px;
+    height: 35.08px;
+    
+    
+  }
+}
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+    footer {
+      flex-direction: column;
+      font-size: 33.5px;
+      gap: 3px;
+      text-align: center;
+      
+      padding-left: 6px;
+      
+    }
+  
+    .logos {
+      padding-left: 3px;
+    }
+    .Icons {
+      width: 46.64px;
+      height: 48.08px;
+      
+      
+    }
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1366px) {
+    footer {
+      flex-direction: column;
+      font-size: 40px;
+      gap: 3px;
+      text-align: center;
+      padding-left: 6px;
+      
+    }
+  
+    .logos {
+      padding-left: 3px;
+    }
+    .Icons {
+      width: 48.64px;
+      height: 50.08px;
+      
+      
+    }
+  }
+  @media screen and (min-width: 912px) and (max-width: 1368px) {
+    footer {
+      flex-direction: column;
+      font-size: 39.7px;
+      gap: 3px;
+      text-align: center;
+      
+      padding-left: 6px;
+      
+    }
+  
+    .logos {
+      padding-left: 3px;
+    }
+    .Icons {
+      width: 48.64px;
+      height: 50.08px;
+      
+      
+    }
+  }
+  @media screen and (min-width: 540px) and (max-width: 720px) {
+    footer {
+      flex-direction: column;
+      font-size: 17.86px;
+      gap: 3px;
+      text-align: center;
+      
+      padding-left: 6px;
+      
+    }
+  
+    .logos {
+      padding-left: 3px;
+    }
+    .Icons {
+      width: 28.64px;
+      height: 30.08px;
+      
+      
+    }
+  }
+  
+  @media screen and (min-width: 853px) and (max-width: 1280px) {
+    footer {
+      flex-direction: column;
+      font-size: 37.1px;
+      gap: 3px;
+      text-align: center;
+      
+      padding-left: 6px;
+      
+    }
+  
+    .logos {
+      padding-left: 3px;
+    }
+    .Icons {
+      width: 35.64px;
+      height: 37.08px;
+      
+      
+    }
+  }
+
+ 
+  @media screen and (min-width: 414px) and (max-width: 896px) {
+    footer {
+      flex-direction: column;
+      font-size: 28px;
+      gap: 3px;
+      text-align: center;
+      
+      padding-left: 6px;
+      
+    }
+  
+    .logos {
+      padding-left: 3px;
+    }
+    .Icons {
+      width: 38.64px;
+      height: 40.08px;
+      
+      
+    }
+  }
+  @media screen and (min-width: 390px) and (max-width: 844px) {
+    footer {
+      flex-direction: column;
+      font-size: 21px;
+      gap: 3px;
+      text-align: center;
+      
+      padding-left: 6px;
+      
+    }
+  
+    .logos {
+      padding-left: 3px;
+    }
+    .Icons {
+      width: 35.64px;
+      height: 37.08px;
+      
+      
+    }
+  }
+  @media screen and (min-width: 430px) and (max-width: 932px) {
+    footer {
+      flex-direction: column;
+      font-size: 23.90px;
+      gap: 3px;
+      text-align: center;
+      
+      padding-left: 6px;
+      
+    }
+  
+    .logos {
+      padding-left: 3px;
+    }
+    .Icons {
+      width: 38.64px;
+      height: 40.08px;
+      
+      
+    }
+  }
+  @media screen and (min-width: 412px) and (max-width: 915px) {
+    footer {
+      flex-direction: column;
+      font-size: 23.5px;
+      gap: 3px;
+      text-align: center;
+      
+      padding-left: 6px;
+      
+    }
+  
+    .logos {
+      padding-left: 3px;
+    }
+    .Icons {
+      width: 38.64px;
+      height: 40.08px;
+      
+      
+    }
+  }
+  @media screen and (min-width: 340px) and (max-width: 740px) {
+    footer {
+      flex-direction: column;
+      font-size: 17.0px;
+      gap: 2px;
+      text-align: center;
+      
+      padding-left: 6px;
+      
+    }
+  
+    .logos {
+      padding-left: 3px;
+    }
+    .Icons {
+      width: 31.64px;
+      height: 33.08px;
+      
+      
+      
+    }
+  }
+  @media screen and (min-width: 912px) and (max-width: 1368px) {
+    footer {
+      flex-direction: column;
+      font-size: 38.8px;
+      gap: 3px;
+      text-align: center;
+      
+      padding-left: 6px;
+      
+    }
+  
+    .logos {
+      padding-left: 3px;
+      width: 120px;
+      height: 120px;
+    }
+    .Icons {
+      width: 45.64px;
+      height: 47.08px;
+      
+      
+    }
+  }
+  @media screen and (min-width: 820px) and (max-width: 1180px) {
+    footer {
+      flex-direction: column;
+      font-size: 31.8px;
+      gap: 3px;
+      text-align: center;
+      
+      padding-left: 6px;
+      
+    }
+  
+    .logos {
+      padding-left: 3px;
+      width: 120px;
+      height: 120px;
+    }
+    .Icons {
+      width: 45.64px;
+      height: 47.08px;
+      
+      
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    footer {
+      flex-direction: column;
+      font-size: 26.8px;
+      gap: 3px;
+      text-align: center;
+      
+      padding-left: 6px;
+      
+    }
+  
+    .logos {
+      padding-left: 3px;
+      width: 120px;
+      height: 120px;
+    }
+    .Icons {
+      width: 45.64px;
+      height: 47.08px;
+      
+      
+    }
+  }
+  @media screen and (min-width: 600px) and (max-width: 1024px) {
+    footer {
+      display: flex !important;
+      flex-direction: row;
+      justify-content: space-around;
+      font-size: 16px;
+      gap: 2px;
+      text-align: left;
+      
+      
+      
+      
+    }
+    .Icons {
+      width: 29.64px;
+      height: 26.08px;
+      margin: 10px;
+      gap: 10%;
+    }
+    .logos {
+      width: 90px;
+      height: 90px;
+      /* margin-left: 50px; */
+      /* margin-top: 50px;  */
+      padding-left: 1.5px;
+      padding-top: 30px;
+    }
+    .icons {
+      gap: 8%;
+    }
+  }
+  
+  @media screen and (min-width: 800px) and (max-width: 1280px) {
+  footer{
+      display: flex !important;
+      flex-direction: row;
+      justify-content: space-around;
+      font-size: 16px;
+      gap: 2px;
+      text-align: left;
+      
+      
+    }
+    .Icons {
+      width: 29.64px;
+      height: 26.08px;
+      margin: 10px;
+      gap: 8%;
+    }
+    .logos {
+      width: 90px;
+      height: 90px;
+      margin-left: 50px;
+      margin-top: 50px; 
+      padding-left: 1.5px;
+      padding-top: 30px;
+    }
+    .icons {
+      gap: 10%;
+    }
+  
+    
+  }
